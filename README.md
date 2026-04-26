@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**.
 
-🔗 Live site: *(deploy to Vercel/Netlify and add link here)*  
+🔗 Live site: https://mwagambo-portfolio.vercel.app/
 📧 Contact: martmwagambo2000@gmail.com  
 💼 LinkedIn: [linkedin.com/in/martin-mwagambo](https://www.linkedin.com/in/martin-mwagambo)  
 🐙 GitHub: [github.com/martinmwagambo](https://github.com/martinmwagambo)
