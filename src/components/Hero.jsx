@@ -142,7 +142,7 @@ export default function Hero() {
                 Contact Me
               </button>
               <a
-                href="/martin-cv.pdf"
+                href="/RESUME_MWAGAMBO.pdf"
                 download="Mwagambo_Resume.pdf"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold
                            border border-green-300 dark:border-green-700 text-green-700 dark:text-green-400
