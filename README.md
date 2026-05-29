@@ -57,7 +57,7 @@ git --version
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/lemayan/Martin_Portfolio.git
+git clone https://github.com/martinmwagambo/Martin_Portfolio.git
 cd Martin_Portfolio
 ```
 
