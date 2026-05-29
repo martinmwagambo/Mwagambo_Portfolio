@@ -25,6 +25,16 @@ function useActiveItem(itemRefs) {
 
 const projects = [
   {
+    title: 'Mwagambo Accessories Website',
+    description: 'A responsive e-commerce-style site for accessories with a modern layout, interactive product previews, and responsive design.',
+    stack: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
+    github: 'https://github.com/martinmwagambo/mwagambo-accessories',
+    live: 'https://mwagambo-accessories.vercel.app/',
+    screenshot: null,
+    gradient: 'from-purple-400 to-pink-500',
+    badge: '🌐 Live',
+  },
+  {
     title: 'Greenview Hotel — The Food Haven',
     description: 'A full-featured hotel web platform with user authentication, food ordering, and a contact system. Built with PHP, Bootstrap, MySQL, and AJAX for a smooth, responsive experience.',
     stack: ['PHP', 'MySQL', 'Bootstrap', 'AJAX', 'JavaScript'],
@@ -55,7 +65,8 @@ const projects = [
     title: 'Personal Portfolio Website',
     description: 'This portfolio — a responsive site showcasing my skills, experience, and projects. Built with performance, clean design, and smooth animations in mind.',
     stack: ['React', 'Tailwind CSS', 'Framer Motion'],
-    github: 'https://github.com/martinmwagambo',
+    github: 'https://github.com/martinmwagambo/Mwagambo_Portfolio',
+    live: 'https://mwagambo-portfolio.vercel.app/',
     screenshot: null,
     gradient: 'from-purple-400 to-pink-500',
     badge: '🌐 Live',
@@ -186,11 +197,17 @@ export default function Projects() {
                             </span>
                           ))}
                         </div>
-                        <div className="ml-4 flex-shrink-0">
+                        <div className="ml-4 flex-shrink-0 flex flex-col items-end gap-2">
                           <a href={project.github} target="_blank" rel="noopener noreferrer"
                             className="flex items-center gap-1.5 text-xs font-medium text-gray-400 hover:text-brand-500 transition-colors">
                             <FiGithub size={14} /> View Code
                           </a>
+                          {project.live && (
+                            <a href={project.live} target="_blank" rel="noopener noreferrer"
+                              className="text-xs font-medium text-brand-500 hover:text-brand-600 transition-colors">
+                              Live Demo
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>
