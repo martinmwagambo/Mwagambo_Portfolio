@@ -36,7 +36,7 @@ const projects = [
   },  
   {
     title: 'Hapo Ulipo',
-    description: 'A desktop inventory management system for a primary school. Tracks school assets, manages records, and generates reports using Visual Basic .NET.',
+    description: 'Everything your day needs, delivered from nearby stores and kitchens by bringing your neighborhood market to your pocket.',
     stack: ['Typescript', 'Supabase'],
     github: 'https://github.com/martinmwagambo/hapo-ulipo',
     live: 'https://hapoulipo.vercel.app/',
