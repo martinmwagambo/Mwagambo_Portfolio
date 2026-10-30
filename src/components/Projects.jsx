@@ -33,6 +33,16 @@ const projects = [
     screenshot: '/accessories.png',
     gradient: 'from-purple-400 to-pink-500',
     badge: '🌐 Live',
+  },  
+  {
+    title: 'Hapo Ulipo',
+    description: 'A desktop inventory management system for a primary school. Tracks school assets, manages records, and generates reports using Visual Basic .NET.',
+    stack: ['Typescript', 'Supabase'],
+    github: 'https://github.com/martinmwagambo/hapo-ulipo',
+    live: 'https://hapoulipo.vercel.app/',
+    screenshot: null,
+    gradient: 'from-brand-400 to-indigo-500',
+    badge: '🌐 Live',
   },
   {
     title: 'Greenview Hotel — The Food Haven',
