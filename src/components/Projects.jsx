@@ -40,7 +40,7 @@ const projects = [
     stack: ['Typescript', 'Supabase'],
     github: 'https://github.com/martinmwagambo/hapo-ulipo',
     live: 'https://hapoulipo.vercel.app/',
-    screenshot: /hapoulipo.png,
+    screenshot: '/hapoulipo.png',
     gradient: 'from-brand-400 to-indigo-500',
     badge: '🌐 Live',
   },
